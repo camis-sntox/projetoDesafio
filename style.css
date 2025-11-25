@@ -6,6 +6,20 @@ header {
     box-shadow: var(--shadow);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -28,6 +42,10 @@ header {
     position: relative;
 }
 
+.nav-link:hover {
+    color: rgb(26, 84, 220);
+}
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -37,7 +55,7 @@ header {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: white;
+    color: rgb(26, 84, 220);
 }
 
 header nav ul {
@@ -83,7 +101,7 @@ header nav a {
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-        url('https://blog.ticketmaster.com.br/wp-content/uploads/2024/11/News_Stray_Kids_Ticketmaster_Dominate_Brasil_Tour-1024x576.jpg.webp');
+        url('https://ih1.redbubble.net/image.2832117719.4909/flat,750x,075,f-pad,750x1000,f8f8f8.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -126,7 +144,9 @@ header nav a {
 
 .about-text {
     flex: 1;
-    min-width: 300px;
+    min-width: 500px;
+    text-align: justify;
+    font-size: larger;
 }
 
 .about-image {
@@ -165,6 +185,12 @@ header nav a {
     margin-bottom: 10px;
     color: black;
 }
+
+.section-title {
+    color: rgb(26, 84, 220);
+    font-style: oblique;
+}
+
 
 footer {
     background-color: black;
